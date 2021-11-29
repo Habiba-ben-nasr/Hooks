@@ -1,0 +1,38 @@
+.add-todo-form {
+    width: 100vw;
+    height: 20px;
+    color: white;
+    padding: 3rem;
+    background-color: #D8B6A4;
+  }
+  
+  .add-todo-form > h1 {
+    font-size: 5em;
+    text-align: center;
+  }
+  .add-todo-form > .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: 15px auto; */
+  }
+  
+  .add-todo-form > .input-container > input,
+  .todo-text {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 60%;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+  }
+  
+  .btn-primary {
+    color: white;
+    background: #a08476;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
+  }

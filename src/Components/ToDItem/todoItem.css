@@ -1,0 +1,26 @@
+.todo-card {
+    width: 100%;
+    display: flex;
+  }
+
+  .todo-text {
+    text-align: center;
+    font-size: x-large;
+    outline: none;
+    padding: 0.5rem;
+    /* border-radius: 5px;
+    border: none; */
+  }
+
+
+  .btn-danger {
+    color: white;
+    background: rgb(136, 93, 87);
+  }
+  
+
+  .btn-danger:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(233, 79, 58);
+  }
+
